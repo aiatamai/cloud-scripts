@@ -2,7 +2,7 @@
 #umount.remote - A script to unmount cloud remotes for use with Plex
 #shellcheck source=config
 ########## CONFIGURATION ##########
-. "../config"
+. "/home/atamai/cloud-scripts/config"
 ###################################
 #FUNCTIONS
 umount_cloud () {

@@ -1,7 +1,7 @@
 #!/bin/sh
 #shellcheck source=config
 ########## CONFIGURATION ##########
-. "../config"
+. "/home/atamai/cloud-scripts/config"
 ###################################
 rm_time () {
 	# Generate filelist and iterate through it...

@@ -2,7 +2,7 @@
 #shellcheck source=config
 
 ########## CONFIGURATION ##########
-. "$HOME/cloud-scripts/config"
+. "/home/atamai/cloud-scripts/config"
 
 ########## DOWNLOADS ##########
 # Rclone

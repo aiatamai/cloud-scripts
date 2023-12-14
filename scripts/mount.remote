@@ -2,7 +2,7 @@
 #mount.remote - A script to mount GDrive remote for use with Plex
 #shellcheck source=config
 ########## CONFIGURATION ##########
-. "../config"
+. "/home/atamai/cloud-scripts/config"
 ###################################
 #FUNCTIONS
 mount_gdrive () {
