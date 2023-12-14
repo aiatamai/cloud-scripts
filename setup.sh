@@ -127,23 +127,23 @@ rm -rf "${temp_dir}"
 
 echo "--------- Writing SETUP RCLONE Instrucions ----------"
 
-echo "1. Now run rclone with the command:" >> /mnt/.config/cloud-media-scripts/setup_rclone_instructions.txt
-echo "rclone config" >> /mnt/.config/cloud-media-scripts/setup_rclone_instructions.txt
-echo "2. You need to setup following:" >> /mnt/.config/cloud-media-scripts/setup_rclone_instructions.txt
-echo "Google Drive remote" >> /mnt/.config/cloud-media-scripts/setup_rclone_instructions.txt
-echo "Remote name needs to be gd" >> /mnt/.config/cloud-media-scripts/setup_rclone_instructions.txt
+echo "1. Now run rclone with the command:" >> /mnt/.config/cloud-scripts/setup_rclone_instructions.txt
+echo "rclone config" >> /mnt/.config/cloud-media/setup_rclone_instructions.txt
+echo "2. You need to setup following:" >> /mnt/.config/cloud-scripts/setup_rclone_instructions.txt
+echo "Google Drive remote" >> /mnt/.config/cloud-scripts/setup_rclone_instructions.txt
+echo "Remote name needs to be gd" >> /mnt/.config/cloud-scripts/setup_rclone_instructions.txt
 
 echo "-------- Writing SETUP PLEXDRIVE Instructions --------"
 
-echo "1. Now run plexdrive with the command:" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo "pledrive --config=${plexdrive_dir} ${cloud_dir}" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo "2. Enter authorization" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo "3. Cancel plexdrive by pressing CTRL+C" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo "4. Run plexdrive with screen by running the following command:" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo "screen -dmS plexdrive ${plexdrive_options} ${cloud_dir}" >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
-echo 'Exit screen session by pressing CTRL+A then D' >> /mnt/.config/cloud-media-scripts/setup_plexdrive_instructions.txt
+echo "1. Now run plexdrive with the command:" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo "pledrive --config=${plexdrive_dir} ${cloud_dir}" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo "2. Enter authorization" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo "3. Cancel plexdrive by pressing CTRL+C" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo "4. Run plexdrive with screen by running the following command:" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo "screen -dmS plexdrive ${plexdrive_options} ${cloud_dir}" >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
+echo 'Exit screen session by pressing CTRL+A then D' >> /mnt/.config/cloud-scripts/setup_plexdrive_instructions.txt
 
-echo ""go to /mnt/.config/cloud-media-scripts/" to see your setup help instructions"
+echo ""go to /mnt/.config/cloud-scripts/" to see your setup help instructions"
 
 ###################################################
 
