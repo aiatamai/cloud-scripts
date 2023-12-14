@@ -70,7 +70,7 @@ pathadd() {
 }
 
 # copy git repo to root of user dir
-git clone https://github.com/oriongrimm/cloud-media-scripts.git "${temp_dir}/CMS"
+git clone https://github.com/aiatamai/cloud-scripts.git "${temp_dir}/CMS"
 cp -rf "${temp_dir}"/CMS/plexdrive/* "${cfg_dir}/plexdrive"
 cp -rf "${temp_dir}"/CMS/rclone/* "${cfg_dir}/rclone"
 cp -rf "${temp_dir}"/CMS/config "${cfg_dir}/CMS"
