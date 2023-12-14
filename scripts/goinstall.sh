@@ -22,13 +22,13 @@ elif [ "$1" == "--darwin" ]; then
 elif [ "$1" == "--arm" ]; then
     DFILE="go$VERSION.linux-armv6l.tar.gz"
 elif [ "$1" == "--remove" ]; then
-    rm -rf "$HOME/.go/"
-    rm -rf "$HOME/go/"
-    sed -i '/# GoLang/d' "$HOME/.bashrc"
-    sed -i '/export GOROOT/d' "$HOME/.bashrc"
-    sed -i '/:$GOROOT/d' "$HOME/.bashrc"
-    sed -i '/export GOPATH/d' "$HOME/.bashrc"
-    sed -i '/:$GOPATH/d' "$HOME/.bashrc"
+    rm -rf "/home/atamai/.go/"
+    rm -rf "/home/atamai/go/"
+    sed -i '/# GoLang/d' "/home/atamai/.bashrc"
+    sed -i '/export GOROOT/d' "/home/atamai/.bashrc"
+    sed -i '/:$GOROOT/d' "/home/atamai/.bashrc"
+    sed -i '/export GOPATH/d' "/home/atamai/.bashrc"
+    sed -i '/:$GOPATH/d' "/home/atamai/.bashrc"
     echo "Go removed."
     exit 0
 elif [ "$1" == "--help" ]; then
@@ -39,7 +39,7 @@ else
     exit 1
 fi
 
-if [ -d "$HOME/.go" ] || [ -d "$HOME/go" ]; then
+if [ -d "/atamai/home/.go" ] || [ -d "$HOME/go" ]; then
     echo "Installation directories already exist. Exiting."
     exit 1
 fi
