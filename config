@@ -4,10 +4,10 @@
 
 ######## DIRECTORIES ########
 
-temp_dir=$HOME/.tmp
-media_dir=$HOME/cloud-storage
-bin_dir=$HOME/.bin
-cfg_dir=$HOME/.config
+temp_dir=/mnt/.tmp
+media_dir=/mnt/clouddrive
+bin_dir=/mnt/.bin
+cfg_dir=/mnt/.config
 cloud_dir="${media_dir}/.cloud" # Cloud directory
 local_dir="${media_dir}/.local/media" # Local directory
 local_media_dir="${media_dir}/media" # Media directory (FINAL)
@@ -38,7 +38,7 @@ rclone_options="--allow-non-empty --allow-other --buffer-size 500M --max-read-ah
 
 ######## Rclone endpoints ########
 
-rclone_cloud_endpoint="gd:"
+rclone_cloud_endpoint="media:"
 
 ######## MISC. CONFIG ########
 

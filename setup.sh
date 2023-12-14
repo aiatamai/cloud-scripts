@@ -9,7 +9,7 @@
 _rclone_url="https://downloads.rclone.org/rclone-current-linux-amd64.zip" #current stable rclone release
 
 # Plexdrive
-_plexdrive_url="https://github.com/dweidenfeld/plexdrive/releases/download/5.0.0/plexdrive-linux-amd64"
+_plexdrive_url="https://github.com/dweidenfeld/plexdrive/releases/download/5.2.1/plexdrive-linux-amd64"
 _plexdrive_bin="plexdrive-linux-amd64"
 
 # Install Dependencies
