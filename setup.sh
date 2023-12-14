@@ -2,7 +2,7 @@
 #shellcheck source=config
 
 ########## CONFIGURATION ##########
-. "$HOME/cloud-media-scripts/config"
+. "$HOME/cloud-scripts/config"
 
 ########## DOWNLOADS ##########
 # Rclone
