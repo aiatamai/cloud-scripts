@@ -5,12 +5,12 @@
 ######## DIRECTORIES ########
 
 temp_dir=/mnt/.tmp
-media_dir=/mnt/clouddrive
+media_dir=/mnt
 bin_dir=/mnt/.bin
 cfg_dir=/mnt/.config
-cloud_dir="${media_dir}/.cloud" # Cloud directory
-local_dir="${media_dir}/.local/media" # Local directory
-local_media_dir="${media_dir}/media" # Media directory (FINAL)
+cloud_dir="${media_dir}/cloud-decrypt" # Cloud directory
+local_dir="${media_dir}/local-decrypt" # Local directory
+local_media_dir="${media_dir}/local-media" # Media directory (FINAL)
 
 ######## UNION-FS ########
 
@@ -23,7 +23,7 @@ go_path=$HOME/.config/boltdb
 
 ######## PLEXDRIVE ########
 
-plexdrive_dir="${media_dir}/plexdrive"
+plexdrive_dir="${media_dir}/cloud-encrypt"
 plexdrive_bin="${bin_dir}/plexdrive"
 plexdrive_temp_dir="${media_dir}/.local/plexdrive"
 plexdrive_options="--temp=${plexdrive_temp_dir} -o allow_other --clear-chunk-max-size=1000G --clear-chunk-age=24h --chunk-size=10M"
@@ -38,7 +38,7 @@ rclone_options="--allow-non-empty --allow-other --buffer-size 500M --max-read-ah
 
 ######## Rclone endpoints ########
 
-rclone_cloud_endpoint="media:"
+rclone_cloud_endpoint="gd:"
 
 ######## MISC. CONFIG ########
 
